@@ -15,7 +15,7 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  background-color: #f2f2f2; 
+  background-color: #f2f2f2;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -26,7 +26,7 @@
 }
 .logo_place_header{
   width: 154px;
-  height: 31x;
+  height: 31px;
   position: absolute;
     top: 30px;
     left: 64px;
@@ -149,7 +149,7 @@
 }
 .table__cell{
   width: 250px;
-  margin-top: 60px ;
+  margin-top: 60px;
 }
 .table__cell:hover{
   background-color: #f2f2f2;
@@ -161,7 +161,7 @@
   font-weight: bold;
 }
 .table__text{
-  margin: 20px 0 0; 
+  margin: 20px 0 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -248,7 +248,7 @@
 }
 .table__cell_theme_dark{
   width: 200px;
-  margin-top: 80px ;
+  margin-top: 80px;
 }
 .table__cell_theme_dark:hover{
   background-color: #999999;
@@ -291,8 +291,6 @@
   margin: 18px auto;
   position: absolute;
   bottom: 0px;
-}
-.footer__author{
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
