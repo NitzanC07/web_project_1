@@ -6,7 +6,7 @@ Subtitle:
 
 The most effective, cutting-edge learning techniques that you can apply to your daily life
 
-Learn more
+Learn more &#8594; (rightwards arrow)
 
 ---
 
