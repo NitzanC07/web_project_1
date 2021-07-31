@@ -1,0 +1,18 @@
+.page {
+    min-width: 1100px;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+.content{
+    margin: 0;
+}
+
+.links{
+    color: #2f80ed;
+    text-decoration: none;
+}
+.links:hover{
+    opacity: 0.5;
+    transition: 2s;
+}

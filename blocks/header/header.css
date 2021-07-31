@@ -1,0 +1,65 @@
+.header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    background-color: #f2f2f2;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+  }
+  .logo{
+    z-index: 1;
+  }
+  .logo_place_header{
+    margin: 0;
+    width: 154px;
+    height: 31px;
+    position: absolute;
+      top: 30px;
+      left: 64px;
+  }
+  .header__title{
+    margin: 0 0 0 64px;
+    padding: 0;
+    width: 730px;
+    line-height: 96px;
+    font-size: 102px;
+    font-weight: bold;
+    z-index: 1;
+  }
+  .header__subtitle{
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    width: 388px;
+    position: absolute;
+      bottom: 30px;
+      left: 64px;
+    z-index: 1;
+  }
+  .header__link{
+    color: #2f80ed;
+    text-decoration: none;
+  }
+  .header__main-illustration{
+    width: 756px;
+    height: 608px;
+    position: absolute;
+      bottom: 0px;
+      right: 0px;
+  }
+  .header__square-pic {
+    height: 568px;
+    width: 568px;
+    background-color: #2f80ed;
+    position: absolute;
+      top: 64px;
+      right: 0px;
+    transform: rotate(-15deg);
+    animation: rotation 20s linear 1.5s infinite;  
+  }

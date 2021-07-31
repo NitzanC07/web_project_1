@@ -1,0 +1,46 @@
+.digits{
+    margin: 100px 0;
+  }
+  .section-title{
+    line-height: 69px;
+    font-size: 60px;
+    font-weight: bold;
+    width: 60%;
+    margin: 0 auto 20px;
+    text-align: center;
+    z-index: 1;
+  }
+  .section-subtitle{
+    width: 60%;
+    margin: auto auto;
+    text-align: center;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    z-index: 1;
+  }
+  .table{
+    list-style: none;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .table__cell{
+    width: 250px;
+    margin-top: 60px;
+  }
+  .table__heading{
+    margin: 0;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .table__text{
+    margin: 20px 0 0;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+  }  
