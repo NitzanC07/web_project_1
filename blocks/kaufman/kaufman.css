@@ -1,37 +1,21 @@
-@import url(../root/rotation.css);
-
 .kaufman{
-    background-color: #1f1f1f;
-    color: #fff;
-    padding: 90px 0;
-    overflow: hidden;
-    position: relative;
-    z-index: 1;
-  }
-  .section-title_theme_dark{
-    text-align: center;
-    position: relative;
-    z-index: 1;
-  }
-  .section-subtitle_theme_dark{
-    font-weight: normal;
-    position: relative;
-    z-index: 1;
-  }
-  .table_theme_dark{
-    display: flex;
-    position: relative;
-  }
-  .table__cell_theme_dark{
-    width: 200px;
-    margin-top: 80px;
-  }
-  .kaufman__triangle{
-    width: 660px;
-    height: 636px;
-    position: absolute;
-      right: -124px;
-      top: 0px;
-      z-index: 0;
-      animation: rotation 20s linear infinite;  
-  }
+  background-color: #1f1f1f;
+  color: #fff;
+  padding: 90px 0;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+
+.kaufman__rotation{
+  position: absolute;
+    right: -124px;
+    top: 0px;
+  animation: rotation 20s linear infinite;
+}
+div.kaufman__triangle{
+  background-image: url(../../images/kaufman-triangle.svg);
+  width: 660px;
+  height: 636px;
+}
