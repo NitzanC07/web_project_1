@@ -53,13 +53,18 @@
       bottom: 0px;
       right: 0px;
   }
-  .header__square-pic {
-    height: 568px;
+  .header__square-pic_block{
     width: 568px;
-    background-color: #2f80ed;
+    height: 568px;
     position: absolute;
       top: 64px;
       right: 0px;
-    transform: rotate(-15deg);
-    animation: rotation 20s linear 1.5s infinite;  
+    animation: rotation 20s linear infinite;
   }
+  .header__square-pic{
+    height: 100%;
+    width: 100%;
+    background-color: #2f80ed;
+    transform: rotate(-15deg);
+  }
+  

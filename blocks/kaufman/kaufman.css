@@ -33,5 +33,5 @@
       right: -124px;
       top: 0px;
       z-index: 0;
-      animation: rotation 20s linear 1.5s infinite;  
+      animation: rotation 20s linear infinite;  
   }
