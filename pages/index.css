@@ -71,8 +71,6 @@
 @import url(../blocks/logo/_place/logo_place_footer.css);
 
 @import url(../blocks/rotation/rotation.css);
-@import url(../blocks/rotation/__header/rotation__header.css);
-@import url(../blocks/rotation/__kaufman/rotation__kaufman.css);
 
 @import url(../blocks/root/root.css);
 @import url(../blocks/content/content.css);
